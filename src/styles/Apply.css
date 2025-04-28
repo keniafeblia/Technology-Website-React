@@ -1,0 +1,103 @@
+/* Apply.css */
+.apply-container {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: linear-gradient(to right, #032f70, #327596, #8db9cc); /* Background yang lebih terang */
+    height: 100vh;
+  }
+
+  .apply-container h1{
+    color: #e0efff;
+    font-weight: bold;
+    padding-bottom: 1%;
+  }
+  
+  .apply-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1); /* Bayangan lebih besar untuk efek depth */
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .apply-form:hover {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); /* Efek bayangan saat form di-hover */
+  }
+  
+  .apply-form .form-group {
+    margin-bottom: 2rem; /* Menambah jarak antar form group */
+  }
+  
+  .apply-form label {
+    font-size: 1rem;
+    color: #0a3474;
+    font-weight: bold; /* Menebalkan font */
+    margin-bottom: 0.5rem; /* Memberikan jarak antara label dan input */
+    display: block; /* Agar label tampil di atas input */
+  }
+  
+  .apply-form input,
+  .apply-form textarea {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s ease;
+    background-color: #f9f9f9; /* Warna latar belakang input lebih terang */
+  }
+  
+  .apply-form input:focus,
+  .apply-form textarea:focus {
+    border-color: #0d47a1; /* Warna border berubah saat input focus */
+    outline: none; /* Menghilangkan outline default */
+  }
+  
+  .apply-form button {
+    background-color: #133971;
+    color: white; /* Warna tulisan pada tombol */
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Menambahkan efek transisi */
+    margin-top: 2rem; /* Memberikan jarak antara tombol dan form */
+  }
+  
+  .apply-form button:hover {
+    background-color: #1976d2;
+    transform: translateY(-3px); /* Efek tombol terangkat saat hover */
+  }
+  
+  .apply-form button:active {
+    transform: translateY(1px); /* Efek saat tombol diklik */
+  }
+  
+  .apply-form input[type="file"] {
+    padding: 0.5rem;
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  .apply-form input[type="file"]:hover {
+    background-color: #e3e3e3; /* Hover effect for file input */
+  }
+  
+  .apply-form .form-group:last-child {
+    margin-bottom: 0; /* Menghilangkan margin bawah pada form group terakhir */
+  }
+  
+  @media (max-width: 768px) {
+    .apply-form {
+      padding: 2rem; /* Mengurangi padding pada perangkat kecil */
+    }
+  
+    .apply-form button {
+      width: 100%; /* Membuat tombol mengambil lebar penuh pada perangkat kecil */
+    }
+  }
+  

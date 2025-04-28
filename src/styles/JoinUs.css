@@ -1,0 +1,257 @@
+/* JoinUs.css */
+.join-us-container {
+  background-color: #f5faff;
+}
+
+/* Hero Section */
+.hero-section.join-us-hero {
+  position: relative;
+  height: 90vh;
+  background: linear-gradient(to right, #032f70, #327596, #8db9cc);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+.hero-content {
+  z-index: 1;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cta-button {
+  background: linear-gradient(135deg, #030137, #1c1c5c);
+  padding: 1rem 2.5rem;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  transform: translateY(0);
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+.cta-button:hover {
+  background: linear-gradient(135deg, #000000, #2e2e7f);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  transform: translateY(-3px);
+}
+
+/* JoinUs.css */
+
+/* JoinUs.css */
+
+/* Section for Steps to Join Us */
+.join-us-steps {
+  padding: 3rem 2rem;
+  text-align: center;
+  display: flex; /* Menyusun card secara horizontal */
+  gap: 2rem; /* Memberi jarak antar card */
+  justify-content: center; /* Memastikan card terpusat di layar */
+  flex-wrap: wrap; /* Agar card tetap bisa dibungkus ke baris berikutnya pada layar kecil */
+}
+
+.join-us-steps h2 {
+  font-size: 2.5rem;
+  color: #0d47a1;
+  margin-bottom: 2rem; /* Spasi antara judul dan card */
+  width: 100%; /* Agar judul tampil penuh di atas card */
+  text-align: center;
+}
+
+.step {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Membuat card bisa mengisi lebar penuh container */
+  max-width: 350px; /* Membatasi lebar card agar tidak terlalu besar */
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.step:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.step h2 {
+  color: #0d47a1;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.step p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* JoinUs.css */
+
+/* Section for Contact Us */
+.join-us-contact {
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: #f5faff;
+}
+
+.join-us-contact h2 {
+  font-size: 2.5rem;
+  color: #0d47a1;
+  margin-bottom: 1.5rem; /* Memberikan jarak antara judul dan isi */
+}
+
+.join-us-contact p {
+  font-size: 1.2rem;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 0.8rem;
+}
+
+/* Styling for Social Icons */
+.social-icons {
+  margin-top: 2rem;
+}
+
+.social-icons a {
+  color: #0d47a1; /* Warna ikon sesuai tema */
+  margin: 0 1rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #1976d2; /* Warna ikon berubah saat hover */
+}
+
+.social-icons svg {
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons svg:hover {
+  transform: scale(1.2); /* Efek zoom-in pada ikon saat hover */
+}
+
+/* JoinUs.css */
+
+/* Styling for the Google Maps section */
+.maps {
+  margin-top: 2rem; /* Memberikan jarak antara konten dan peta */
+  text-align: center;
+}
+
+.maps h3 {
+  font-size: 2rem;
+  color: #0d47a1;
+  margin-bottom: 1rem;
+}
+
+.map-container {
+  max-width: 1200px; /* Membatasi lebar peta agar tidak terlalu besar */
+  margin: 0 auto; /* Membuat peta terpusat */
+  border: 2px solid #0d47a1; /* Border peta dengan warna yang sesuai tema */
+  border-radius: 5px; /* Sudut peta lebih halus */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan untuk efek 3D */
+  overflow: hidden; /* Menghindari overflow saat ukuran peta berubah */
+}
+
+@media (max-width: 768px) {
+  .map-container {
+    width: 90%; /* Peta akan mengisi sebagian besar layar di perangkat kecil */
+    height: 250px; /* Mengurangi tinggi peta untuk perangkat kecil */
+  }
+
+  .maps h3 {
+    font-size: 1.6rem; /* Menyesuaikan ukuran teks pada perangkat kecil */
+  }
+}
+
+
+@media (max-width: 768px) {
+  .social-icons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-icons a {
+    margin: 0 0.8rem;
+  }
+}
+
+
+/* Responsiveness untuk ukuran kecil */
+@media (max-width: 768px) {
+  .join-us-steps {
+    gap: 1rem; /* Mengurangi gap antara card pada layar kecil */
+  }
+
+  .step {
+    width: 100%; /* Membuat card penuh lebar di perangkat kecil */
+    max-width: 100%; /* Menghilangkan batas lebar card pada perangkat kecil */
+  }
+}
+
+
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+}
+
+  
+  .maps iframe {
+    border: 0;
+    border-radius: 10px;
+    margin-top: 1rem;
+  }
+  
+
+.footer {
+    margin-top: 2rem;
+    text-align: center;
+    color: #555;
+}
+
+.footer a {
+    color: #0d47a1;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

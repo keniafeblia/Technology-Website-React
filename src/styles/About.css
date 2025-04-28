@@ -1,0 +1,351 @@
+/* About Page Styles */
+
+  .about-container {
+    font-family: var(--font-poppins);
+    color: #333;
+  }
+  
+  .hero-section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+  }
+  
+  .background-image {
+    background-image: url('../assets/galaxy.jpg');
+    position: absolute;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;  
+    z-index: -1;
+    filter: brightness(0.6);
+  }
+  
+  .hero-content {
+    z-index: 1;
+  }
+  
+/* About Section - Who We Are */
+  .about-section-who {
+    padding: 4rem 2rem;
+    background-color: #f0f7ff; /* Light blue */
+    text-align: center;
+  }
+  
+  /* Wrapper for text and image */
+  .about-section-who-content {
+    display: flex;
+    justify-content: space-between;  /* Menjaga jarak antara gambar dan teks */
+    align-items: center; /* Memastikan gambar dan teks sejajar secara vertikal */
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Image styling */
+  .about-section-who-image img {
+    width: 50%; 
+    height: auto;
+    border-radius: 3px; /* Opsional, untuk sudut gambar melengkung */
+  }
+  
+  /* Text styling */
+  .about-section-who-text {
+    width: 50%; /* Menyediakan ruang untuk teks */
+    text-align: left; /* Menjaga teks rata kiri */
+  }
+  
+  /* Styling for the heading */
+  .about-section-who-text h2 {
+    font-size: 2.5rem;
+    color: #0d47a1;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  /* Styling for the paragraph */
+  .about-section-who-text p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.8; /* Memberikan jarak antara baris agar lebih mudah dibaca */
+  }
+  
+/* About Section - Our Vision */
+.about-section-vision {
+  padding: 4rem 2rem;
+  background-color: #d4e1f4; /* Light cyan */
+  text-align: center;
+}
+
+/* Wrapper for text and image */
+.about-section-vision-content {
+  display: flex;
+  justify-content: space-between;  /* Memberikan ruang antara gambar dan teks */
+  align-items: center; /* Menjaga gambar dan teks sejajar secara vertikal */
+  gap: 2rem; /* Memberikan jarak antar elemen */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Image styling */
+.about-section-vision-image img {
+  width: 45%; /* Gambar mengambil 45% dari lebar kontainer */
+  height: auto;
+  border-radius: 3px; /* Sudut melengkung pada gambar */
+}
+
+/* Text styling */
+.about-section-vision-text {
+  width: 50%; /* Teks mengambil 50% dari lebar kontainer */
+  text-align: left; /* Teks rata kiri */
+  padding-left: 2rem; /* Memberikan ruang kiri pada teks */
+}
+
+/* Styling for the heading */
+.about-section-vision-text h2 {
+  font-size: 2.5rem;
+  color: #0d47a1;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+/* Styling for the paragraph */
+.about-section-vision-text p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.8; /* Menambah jarak antar baris */
+}
+
+/* About Section - Our Story */
+.about-section-our-story {
+  padding: 4rem 2rem;
+  background-color: #f5faff; /* Light background for the section */
+  text-align: center;
+}
+
+/* Wrapper for text and image */
+.about-section-our-story-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem; /* Memberikan jarak antara gambar dan teks */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Image styling */
+.about-section-our-story-image img {
+  width: 100%; /* Gambar mengambil 45% dari lebar */
+  height: auto;
+  border-radius: 3px; /* Opsional, untuk sudut gambar melengkung */
+}
+
+/* Text styling */
+.about-section-our-story-text {
+  width: 90%; /* Teks mengambil sisa 50% */
+  text-align: left; /* Menjaga teks rata kiri */
+  padding-left: 2rem; /* Memberikan ruang kiri */
+}
+
+/* Styling for the heading */
+.about-section-our-story-text h3 {
+  font-size: 2.5rem;
+  color: #0d47a1;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+/* Styling for the paragraph */
+.about-section-our-story-text p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.8;
+  text-align: justify; /* Menambah jarak antar baris */
+}
+
+  
+/* About Section - Our Values */
+.about-section-values {
+  padding: 4rem 2rem;
+  background-color: #d4e1f4; /* Light lavender */
+  text-align: center;
+}
+
+/* Cards container */
+.about-values-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  flex-wrap: wrap; /* Membuat card responsif */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Individual card styling */
+.about-values-card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 22%; /* Menentukan lebar setiap card */
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-values-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon styling */
+.about-values-card i {
+  font-size: 3rem;
+  color: #0d47a1;
+  margin-bottom: 1rem;
+}
+
+.about-section-values h2{
+  font-weight: bold;
+  padding-bottom: 3%;
+  color: #0d47a1;
+}
+
+/* Card title styling */
+.about-values-card h3 {
+  font-size: 1.8rem;
+  color: #0d47a1;
+  margin-bottom: 1rem;
+}
+
+/* Card paragraph styling */
+.about-values-card p {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.6;
+}
+  
+/* About Section - Milestones */
+.about-section-milestones {
+  padding: 4rem 2rem;
+  background-color: #f5faff; /* White background */
+  text-align: center;
+}
+
+/* Cards container */
+.about-milestones-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  flex-wrap: wrap; /* Membuat card responsif */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-section-milestones h2{
+  font-weight: bold;
+  padding-bottom: 3%;
+  color: #0d47a1;
+}
+
+/* Individual milestone card styling */
+.about-milestone-card {
+  background-color: #f0f7ff; /* Light blue */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  height: 20%; /* Lebar card */
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-milestone-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon styling */
+.about-milestone-card i {
+  font-size: 3rem;
+  color: #0d47a1;
+  margin-bottom: 1rem;
+}
+
+/* Milestone title styling */
+.about-milestone-card h3 {
+  font-size: 1.8rem;
+  color: #0d47a1;
+  margin-bottom: 1rem;
+}
+
+/* Milestone description styling */
+.about-milestone-card p {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    background-color: #0d47a1;
+    color: #fff;
+    padding: 2rem;
+    font-size: 0.9rem;
+  }
+  
+  @media (max-width: 768px) {
+    .about-section-who-content {
+      flex-direction: column; /* Mengubah ke kolom pada layar kecil */
+      gap: 2rem;
+    }
+  
+    .about-section-who-image img {
+      width: 80%; /* Menyesuaikan ukuran gambar */
+      margin-bottom: 2rem; /* Memberikan jarak di bawah gambar */
+    }
+  
+    .about-section-who-text {
+      width: 100%; /* Teks mengisi seluruh lebar */
+    }
+    .about-values-card {
+      width: 45%; /* Lebar card lebih besar di layar kecil */
+      margin-bottom: 2rem;
+    }
+  
+    .about-values-cards {
+      justify-content: center;
+    }
+    .about-section-our-story-content {
+      flex-direction: column; /* Mengubah menjadi kolom pada layar kecil */
+      gap: 2rem;
+    }
+  
+    .about-section-our-story-image img {
+      width: 80%; /* Gambar lebih besar di layar kecil */
+      margin-bottom: 1rem; /* Memberikan jarak di bawah gambar */
+    }
+  
+    .about-section-our-story-text {
+      width: 100%; /* Teks mengisi seluruh lebar */
+      text-align: center; /* Teks akan rata tengah pada layar kecil */
+    }
+    .about-milestone-card {
+      width: 45%; /* Lebar card lebih besar di layar kecil */
+      margin-bottom: 2rem;
+    }
+  
+    .about-milestones-cards {
+      justify-content: center;
+    }
+  
+  }
+  

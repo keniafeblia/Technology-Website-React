@@ -1,0 +1,62 @@
+/* src/styles/style.css */
+
+/* === FONT FAMILY SETUP === */
+:root {
+    --font-inter: 'Inter', sans-serif;
+    --font-manrope: 'Manrope', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-space: 'Space Grotesk', sans-serif;
+  }  
+
+/* ========== GLOBAL STYLES ========== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    line-height: 1.6;
+    background-color: #EBF2FF;
+    color: #333;
+  }
+  .hero-section {
+    position: relative;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+  }
+
+  .hero-content {
+    z-index: 1;
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+    padding: 0 1rem;
+  }
+  
+  .hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 300;
+  }
+
+    /* ========== FOOTER ========== */
+    .footer {
+        text-align: center;
+        background-color: #001f3f;
+        color: #9cb9ee;
+        padding: 1.5rem 0;
+        font-size: 0.9rem; 
+        }

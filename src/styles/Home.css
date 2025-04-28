@@ -1,0 +1,669 @@
+/* Global styles */
+html {
+    scroll-behavior: smooth;
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    padding-top: 80px;
+    box-sizing: border-box;
+  }
+
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  body {
+    font-family: var(--font-poppins);
+    background-color: #fff;
+    color: #333;
+  }
+
+  
+  /* Hero Section */
+  .hero-section {
+    position: relative;
+    height: 90vh;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .hero-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+    padding: 0 1rem;
+  }
+  
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    background: linear-gradient(135deg, #030137, #1c1c5c);
+    padding: 1rem 2.5rem;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    transform: translateY(0);
+    display: inline-block;
+    margin: 0.5rem;
+  }
+  
+  .cta-button:hover {
+    background: linear-gradient(135deg, #000000, #2e2e7f);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    transform: translateY(-3px);
+  }
+  
+  /* Solid Scroll Menu */
+/* Hero Section */
+.hero-section {
+    position: relative;
+    height: 100vh; /* Full height for the hero section */
+    color: white;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+ /* Scroll Menu - Positioned Right Below the Hero Section */
+  .scroll-menu {
+    position: relative;
+    top: 0; /* Position this right below the hero section */
+    width: 100%; /* Full width */
+    height: 70px; /* Adjust the height of the navbar */
+    background-color: rgb(2, 36, 86); /* Solid blue background */
+  
+    /* Flexbox for centering */
+    display: flex;
+    justify-content: center; /* Centers the menu items horizontally */
+    align-items: center; /* Centers the menu items vertically */
+    
+    padding: 0; /* Ensure no extra padding around the menu */
+    z-index: 1; /* Keeps it above other sections */
+  }
+  
+  /* Make sure the menu items (links) are spaced properly and aligned */
+  .scroll-menu ul {
+    list-style: none; /* Remove default list style (bullet points) */
+    display: flex; /* Items will be displayed in a row */
+    gap: 30px; /* Add spacing between items */
+    margin: 0; /* Ensure no extra margin */
+    padding: 0; /* No padding by default */
+  }
+  
+  /* Menu item styling */
+  .scroll-menu li a {
+    color: white; /* White text color for the menu items */
+    font-size: 1.25rem; /* Font size for the links */
+    text-decoration: none; /* Remove the underline */
+    padding: 12px 20px; /* Add padding for spacing inside the menu items */
+    border-radius: 5px; /* Rounded corners */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover */
+  }
+  
+  /* Hover effect for the menu items */
+  .scroll-menu li a:hover {
+    color: #2e9ad1; /* Change the color on hover */
+    transform: scale(1.1); /* Slightly increase the size of the item on hover */
+  }
+  
+  
+  /* Smooth scrolling behavior */
+  html {
+    scroll-behavior: smooth;
+  }
+  /* Other sections styles */
+  .features-section, .about-section, .innovation-section, .gallery-section {
+    padding: 4rem 2rem;
+  }
+  
+  
+  /* Features Section */
+  .features-section {
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f5faff;
+  }
+  
+  .feature {
+    text-align: center;
+    width: 30%;
+    min-width: 250px;
+    margin-bottom: 2rem;
+  }
+  
+  .feature h2 {
+    font-size: 2rem;
+    color: #0d47a1;
+    margin-bottom: 1rem;
+  }
+  
+  .feature p {
+    font-size: 1.1rem;
+    color: #444;
+  }
+
+
+/* About Section */
+  .about-section {
+    padding: 4rem 2rem;
+    display: flex; /* Gunakan flexbox */
+    justify-content: space-between; /* Mengatur jarak antara teks dan gambar */
+    align-items: center; /* Menjaga elemen di tengah secara vertikal */
+    background-color: #ffffff;
+  }
+  
+  .about-section .text {
+    max-width: 50%;
+    text-align: justify; /* Mengatur teks agar rata kiri dan kanan */
+    line-height: 1.8; /* Menambah jarak antar baris untuk kenyamanan baca */
+    padding-right: 2rem; /* Memberikan padding pada sisi kanan agar tidak terlalu rapat */
+  }
+  
+  .about-section .image {
+    max-width: 45%; /* Maksimalkan lebar gambar */
+  }
+  
+  .about-section h2 {
+    font-size: 2.5rem;
+    color: #0d47a1;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .about-section p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  
+  /* Innovation Section */
+  .innovation-section {
+    padding: 4rem 2rem;
+    background-color: #f0f7ff;
+    text-align: center;
+  }
+  
+  .innovation-section h2 {
+    font-size: 2.5rem;
+    color: #0d47a1;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  
+  .innovation-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    color: #0d47a1;
+    margin-bottom: 1rem;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.5;
+  }
+  
+  /* Gallery Section */
+  .gallery-section {
+    padding: 3rem 1rem;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .gallery-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    color: #0d47a1;
+    font-weight: bold;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 0 2rem;
+  }
+  
+  .gallery-grid img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-grid img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Styling for the Team Section */
+.team-section {
+  padding: 4rem 2rem;
+  background-color: #f5faff;
+  text-align: center;
+}
+
+.team-section h2 {
+  font-size: 2.5rem;
+  color: #0d47a1;
+  margin-bottom: 1rem;
+}
+
+.team-subtitle {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.team-member {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+  cursor: pointer;
+}
+
+.team-member:hover {
+  transform: translateY(-8px);
+}
+
+.team-member img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.team-member h3 {
+  font-size: 1.2rem;
+  color: #0d47a1;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+}
+
+.team-member p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.team-email {
+  display: block;
+  margin-top: 10px;
+  color: #0d47a1;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.team-email:hover {
+  text-decoration: underline;
+  color: #1976d2;
+}
+
+/* Pop-up styles */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000; /* Ensure it's on top of other content */
+  animation: fadeIn 0.3s ease-out; /* Animation to fade in */
+}
+
+/* Pop-up styles */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Slightly darker background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000; /* Ensure it's on top of other content */
+  animation: fadeIn 0.3s ease-out; /* Animation to fade in */
+}
+
+/* Modal content */
+.popup-content {
+  background-color: white;
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  animation: slideUp 0.3s ease-out; /* Smooth slide-up effect */
+  text-align: justify; /* Justify the text inside the popup */
+  max-height: 80vh; /* Prevent the modal from being too tall */
+  overflow-y: auto; /* Allow scrolling if content exceeds modal height */
+}
+
+/* Modal heading (Name, Title) */
+.popup-content h2 {
+  font-size: 2rem;
+  color: #0d47a1;
+  margin-bottom: 1rem;
+}
+
+.popup-content h3 {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+/* Close button styling */
+.popup button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #0d47a1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s;
+}
+
+.popup button:hover {
+  background-color: #1976d2;
+}
+
+/* Animation for the pop-up content */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .team-section h2 {
+    font-size: 2rem;
+  }
+
+  .team-member {
+    padding: 1.5rem;
+  }
+
+  .team-member img {
+    width: 100px;
+    height: 100px;
+  }
+}
+  
+  /* Partners Section */
+  .partners-section {
+    padding: 3rem 1rem;
+    background-color: #f5faff;
+    text-align: center;
+  }
+  
+  .partners-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #0d47a1;
+    font-weight: bold;
+  }
+  
+  .partners-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .partners-logos img {
+    height: 60px;
+    object-fit: contain;
+    opacity: 0.85;
+    transition: opacity 0.3s ease;
+  }
+  
+  .partners-logos img:hover {
+    opacity: 1;
+  }
+  
+  .contact-section {
+    background-color: #f5faff;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 2.5rem;
+    color: #0d47a1;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .contact-section input,
+  .contact-section textarea {
+    width: 100%;
+    padding: 1rem;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-section button {
+    padding: 1rem 2rem;
+    background-color: #0d47a1;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-section button:hover {
+    background-color: #1976d2;
+  }
+
+
+/* ========== POP-UP MESSAGE STYLES ========== */
+.popup-message {
+    margin-top: 20px;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: slideIn 0.5s forwards ease-in-out;
+  }
+  
+  .popup-message.success {
+    background: linear-gradient(135deg, #4caf50, #81c784);
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 128, 0, 0.3);
+  }
+  
+  .popup-message.error {
+    background: linear-gradient(135deg, #d52c20, #e44b48);
+    color: white;
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.3);
+  }
+  
+  /* Animation for pop-up message */
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* ========== RESPONSIVE STYLES ========== */
+  @media (max-width: 768px) {
+    .about-section {
+        flex-direction: column; /* Membuat konten berjejer vertikal pada layar kecil */
+        text-align: center; /* Menyelaraskan teks di tengah */
+    }
+    
+    .about-section .text, .about-section .image {
+        max-width: 100%; /* Membuat teks dan gambar memenuhi lebar layar */
+    }
+
+    .popup-message {
+      max-width: 90%;
+    }
+ 
+    .hero-content h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-content p {
+      font-size: 1.2rem;
+    }
+  
+    .feature {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+  
+    .innovation-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 90%;
+    }
+  
+    .cta-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .partners-logos {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
