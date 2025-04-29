@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/Technology-Website-React/static/css/main.a9308a0e.css",
+    "main.js": "/Technology-Website-React/static/js/main.5588b02c.js",
+    "static/js/453.f39427a6.chunk.js": "/Technology-Website-React/static/js/453.f39427a6.chunk.js",
+    "static/media/tim1.PNG": "/Technology-Website-React/static/media/tim1.7a05b46fbe686dab007a.PNG",
+    "static/media/galaxy.jpg": "/Technology-Website-React/static/media/galaxy.43054b466e35d0910581.jpg",
+    "static/media/part1.png": "/Technology-Website-React/static/media/part1.c58c2bab33b0a92f1b04.png",
+    "static/media/fa-solid-900.ttf": "/Technology-Website-React/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/news1.jpg": "/Technology-Website-React/static/media/news1.1750961f6a059b2d99e7.jpg",
+    "static/media/tim2.JPG": "/Technology-Website-React/static/media/tim2.665dc899e086e07b4b02.JPG",
+    "static/media/fa-brands-400.ttf": "/Technology-Website-React/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/fa-solid-900.woff2": "/Technology-Website-React/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/news3.webp": "/Technology-Website-React/static/media/news3.c5177dc6e397f2e55d6a.webp",
+    "static/media/space.jpeg": "/Technology-Website-React/static/media/space.188c140d5b110ea3bde7.jpeg",
+    "static/media/astronot.jpeg": "/Technology-Website-React/static/media/astronot.4fd2f83d1ab676b359b0.jpeg",
+    "static/media/ship.jpeg": "/Technology-Website-React/static/media/ship.9f81eba8004530ae66d4.jpeg",
+    "static/media/fa-brands-400.woff2": "/Technology-Website-React/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/gal3.jpeg": "/Technology-Website-React/static/media/gal3.d0a23cd334ade21ebce9.jpeg",
+    "static/media/tim3.JPG": "/Technology-Website-React/static/media/tim3.483d39681da48f52be64.JPG",
+    "static/media/gal4.jpeg": "/Technology-Website-React/static/media/gal4.c94ed1e29b147d9b2d01.jpeg",
+    "static/media/building.jpeg": "/Technology-Website-React/static/media/building.c10e5e213cc5e26fbaf6.jpeg",
+    "static/media/gal5.jpeg": "/Technology-Website-React/static/media/gal5.1a51147c9578fb1cf3c0.jpeg",
+    "static/media/fa-regular-400.ttf": "/Technology-Website-React/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/gal2.jpeg": "/Technology-Website-React/static/media/gal2.ab281109d7d3379b8666.jpeg",
+    "static/media/news2.webp": "/Technology-Website-React/static/media/news2.bea61730f97c2da167e0.webp",
+    "static/media/gal1.jpeg": "/Technology-Website-React/static/media/gal1.19e3ff9e17d90b704e6c.jpeg",
+    "static/media/part3.png": "/Technology-Website-React/static/media/part3.e057aef9e163c29856e3.png",
+    "static/media/gal6.jpeg": "/Technology-Website-React/static/media/gal6.af40020003f4b4f212c5.jpeg",
+    "static/media/part2.png": "/Technology-Website-React/static/media/part2.d1a264c4bc2526aa901c.png",
+    "static/media/fa-regular-400.woff2": "/Technology-Website-React/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Technology-Website-React/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Technology-Website-React/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
+    "index.html": "/Technology-Website-React/index.html",
+    "main.a9308a0e.css.map": "/Technology-Website-React/static/css/main.a9308a0e.css.map",
+    "main.5588b02c.js.map": "/Technology-Website-React/static/js/main.5588b02c.js.map",
+    "453.f39427a6.chunk.js.map": "/Technology-Website-React/static/js/453.f39427a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9308a0e.css",
+    "static/js/main.5588b02c.js"
+  ]
+}
